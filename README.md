@@ -39,8 +39,6 @@ Debemos tener un archivo parecido a este con nuestras clases [labelmap.pbtxt](ht
 
 Y asegurarnos que nuestra configuración es la adecuada, mirar los paths de inputs.
 
-Si queremos usar un modelo pre-entrenado indicaremos en **fine_tune_checkpoint** el path donde se encuentra el modelo.
-
-Los modelos con los que se ha entrenado los experimentos se encuentran en [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+Si queremos usar un modelo pre-entrenado indicaremos en **fine_tune_checkpoint** el path donde se encuentra el modelo. Los modelos con los que se ha entrenado los experimentos se encuentran en [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
 
