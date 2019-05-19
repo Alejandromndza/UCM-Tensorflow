@@ -28,8 +28,9 @@ En caso de querer añadir más clases o clases diferentes, deberemos de modifica
 
 Para ejecutar el script generador de los records de tensorflow debemos ejecutar lo siguiente:
 
-1. python generate_tfrecord.py --csv_input=ucm\train_labels.csv --image_dir=ucm\Entrenamiento --output_path=train.record
-2. python generate_tfrecord.py --csv_input=ucm\test_labels.csv --image_dir=ucm\Test --output_path=test.record
+python generate_tfrecord.py --csv_input=ucm\train_labels.csv --image_dir=ucm\Entrenamiento --output_path=train.record
+
+python generate_tfrecord.py --csv_input=ucm\test_labels.csv --image_dir=ucm\Test --output_path=test.record
 
                      
 Tras ejecutar el script generate_tfrecord.py tendremos train.record y test.record
