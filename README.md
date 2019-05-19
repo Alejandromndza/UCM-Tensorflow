@@ -41,4 +41,28 @@ Y asegurarnos que nuestra configuración es la adecuada, mirar los paths de inpu
 
 Si queremos usar un modelo pre-entrenado indicaremos en **fine_tune_checkpoint** el path donde se encuentra el modelo. Los modelos pre-entrenados con los que se ha entrenado los experimentos se encuentran en [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
+Todas estas carpetas deben ser utilizadas desplegandolas en el [API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
+Para ello habrá que descargar y situar los archivos en la carpeta indicada anteriormente
+
+Cuando todo este correcto se deberá situar el script de train.py que se encuentra en la carpeta **legacy** y ejecutar este comando. 
+
+    python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_UCM.config
+    
+Podemos inspeccionar el entrenamiento abriendo otro terminal y mediante este comando tensorboard --logdir=training se generara en nuestro localhost (http://localhost:6060) una interfaz web donde podremos observar el entrenamiento. 
+
+Cuando consideremos que el modelo ya esta entrenado utilizaremos Ctrl + C para parar o por el contrario dejarlo terminar con los steps indicados en la configuración 70.000.
+
+Para exportar el grafo ejecutar el siguiente comando 
+
+    python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_UCM.config --trained_checkpoint_prefix training/model.ckpt-Checkpoint --output_directory inference_graph
+   
+En Checkpoint se deberá poner el último punto donde se guardo nuestro modelo.
+   
+
+
+
+
+
+
 
