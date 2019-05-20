@@ -1,5 +1,21 @@
 # UCM-Tensorflow
 
+
+# Experimento de detección de objetos utilizando TensorFlow
+
+Este análisis y estudio del funcionamiento de la detección de objetos en imagenes o videos se ha llevado a cabo gracias al API oficial de TensorFlow disponible en el siguiente enlace: [API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
+Para entender mejor el desarrollo del detector de objetos se hizo una investigación previa de un clasificador de objetos. 
+[Clasificador de objetos](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/Clasificador.md)
+
+## Nota previa Protocol buffers
+Este API utiliza protobufs para configurar el modelo y los parámetros de entrenamiento. Por lo tanto se deben de compilar estas librerias, en adelante se detalla como hacerlo.
+
+Estas librerias tienen un lenguaje y plataforma neutral, para serializar datos estructurados.
+
+Para más información acerca de los protobufs [documentación](https://developers.google.com/protocol-buffers/).
+
+
 El código de **UCM_Converter** ha sido modificado del original xml_to_csv que se encuentra en este [enlace](https://github.com/datitran/raccoon_dataset).
 
 El código de **generate_tfrecord** se ha tomado del mismo repositorio.
@@ -41,7 +57,7 @@ Y asegurarnos que nuestra configuración es la adecuada, mirar los paths de inpu
 
 Si queremos usar un modelo pre-entrenado indicaremos en **fine_tune_checkpoint** el path donde se encuentra el modelo. Los modelos pre-entrenados con los que se ha entrenado los experimentos se encuentran en [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
-Todas estas carpetas deben ser utilizadas desplegandolas en el [API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+Todas estas carpetas deben ser utilizadas desplegandolas en la ruta del API señalada anteriormente
 
 Para ello habrá que descargar y situar los archivos en la carpeta indicada anteriormente
 
