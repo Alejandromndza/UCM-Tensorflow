@@ -16,7 +16,7 @@ Para más información acerca de los protobufs [documentación](https://develope
 
 ## Desarrollo
 
-El desarrollo del clasificador previo para entender el funcionamiento básico de las redes convolucionales se encuentra en un archivo collaboratory de google esta disponible en el siguiente [enlace](https://colab.research.google.com/drive/1OcOGwLL2juSK3s4SVTmZ1DYQ-a6yyHh7#scrollTo=8Kn_nYo3bxG4)
+El desarrollo del clasificador previo para entender el funcionamiento básico de las redes convolucionales, se encuentra en un archivo collaboratory de google esta disponible en el siguiente [enlace](https://colab.research.google.com/drive/1OcOGwLL2juSK3s4SVTmZ1DYQ-a6yyHh7#scrollTo=8Kn_nYo3bxG4)
 
 Para la instalación de protobufs se detalla en el siguiente [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 
