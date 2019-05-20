@@ -37,7 +37,7 @@ En caso de querer añadir más clases o clases diferentes, deberemos de modifica
                                         if row_label == 'cat':
                                             return 1
                                         if row_label == 'dog':
-                                            return 1
+                                            return 2
                                         else:
                                             None
 
