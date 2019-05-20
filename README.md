@@ -16,6 +16,8 @@ Para más información acerca de los protobufs [documentación](https://develope
 
 ## Desarrollo
 
+Para la instalación de protobufs se detalla en el siguiente [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
+
 El código de **UCM_Converter** ha sido modificado del original xml_to_csv que se encuentra en este [enlace](https://github.com/datitran/raccoon_dataset).
 
 El código de **generate_tfrecord** se ha tomado del mismo repositorio.
