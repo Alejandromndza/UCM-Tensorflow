@@ -79,6 +79,9 @@ Para exportar el grafo ejecutar el siguiente comando
    
 En Checkpoint se deberá poner el último punto donde se guardo nuestro modelo.
    
+Resultado 
+------------
+
 Para probar nuestro modelo se ha subido el modelo inferido, se pueden ejecutar los scripts UCM-video-py y UCM-webcam.py
 
 
