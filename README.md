@@ -43,12 +43,14 @@ Para más información acerca de los protobufs [documentación](https://develope
 
 Nota:
 
-Por problemas con los protobufs se ha adjuntado la carpeta protos que se deberá en la [ruta](https://github.com/tensorflow/models/tree/master/research/object_detection)
+Por problemas con los protobufs se ha adjuntado la carpeta protos que se deberá situar en la siguiente [ruta](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-Tras disponer la carpeta protos en la siguiente [ruta](https://github.com/tensorflow/models/tree/master/research) se deberá ejecutar los siguientes comandos:
+Tras disponer la carpeta protos, en esta [ruta](https://github.com/tensorflow/models/tree/master/research) se deberá ejecutar los siguientes comandos:
 
                                           python setup.py build
                                           python setup.py install
+                                          
+Si tenemos todas las librerias correctamente instaladas no deberiamos tener problemas para ejecutar los scripts
 
 ## Desarrollo
 
