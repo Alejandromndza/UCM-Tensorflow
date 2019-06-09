@@ -15,6 +15,10 @@ Hadware Utilizado:
  
 Para llevar a cabo este experimento ha sido necesario el siguiente software:
 
+Sistema opertivo : Windows 10
+
+Librerias:
+
   1. Python 3.6
   2. Anaconda
   3. CUDA Tool Kit v8 (v9 no compatible con tensorflow v1.4)
