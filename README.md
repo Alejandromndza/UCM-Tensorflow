@@ -5,6 +5,8 @@
 
 Este análisis y estudio del funcionamiento de la detección de objetos en imagenes o videos se ha llevado a cabo gracias al API oficial de TensorFlow disponible en el siguiente enlace: [API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
+Se ha utilizado el interfaz de anaconda para tener un mejor control de librerias, cuando anaconda este instalado mediante anaconda prompt ejecutaremos los comandos que vienen en requeriments.txt
+
 ## Como se ha llevado a cabo
 
 Hadware Utilizado:
@@ -39,6 +41,14 @@ Estas librerias tienen un lenguaje y plataforma neutral, para serializar datos e
 
 Para más información acerca de los protobufs [documentación](https://developers.google.com/protocol-buffers/).
 
+Nota:
+
+Por problemas con los protobufs se ha adjuntado la carpeta protos que se deberá en la [ruta](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
+Tras disponer la carpeta protos en la siguiente [ruta](https://github.com/tensorflow/models/tree/master/research) se deberá ejecutar los siguientes comandos:
+
+                                          python setup.py build
+                                          python setup.py install
 
 ## Desarrollo
 
