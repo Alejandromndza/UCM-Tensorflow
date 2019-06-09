@@ -5,7 +5,7 @@
 
 Este análisis y estudio del funcionamiento de la detección de objetos en imagenes o videos se ha llevado a cabo gracias al API oficial de TensorFlow disponible en el siguiente enlace: [API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-Se ha utilizado el interfaz de anaconda para tener un mejor control de librerias, cuando anaconda este instalado mediante anaconda prompt ejecutaremos los comandos que vienen en requeriments.txt
+Se ha utilizado el interfaz de anaconda para tener un mejor control de librerias, cuando anaconda este instalado, mediante anaconda prompt ejecutaremos los comandos que vienen en [requeriments.txt](https://github.com/Alejandromndza/UCM-Tensorflow/blob/master/requeriments.txt)
 
 ## Como se ha llevado a cabo
 
